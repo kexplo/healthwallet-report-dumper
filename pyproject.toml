@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "healthwallet-result-dumper"
+version = "0.1.0"
+description = ""
+authors = ["Chanwoong Kim <me@chanwoong.kim>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+XlsxWriter = "^1.3.3"
+
+[tool.poetry.dev-dependencies]
+flake8 = "^3.8.3"
+mypy = "^0.782"
+flake8-import-order = "^0.18.1"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
